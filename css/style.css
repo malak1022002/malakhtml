@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+    
+}
+
+.navbar{
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0 , 0 , 0 , .1);
+}
+.logo{
+    width: 160px;
+}
+.log{
+    margin-right: 600px;
+}
+.home{
+    background: #EEC7BF;
+    padding: 2rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    min-height: 100vh;
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.home .image{
+    flex: 1 1 40rem;
+}
+.home .image img{
+    width: 100%;
+}
+.home .content{
+    flex: 1 1   40rem;
+}
+.home .content .hi{
+    text-align: left;
+    font-size: 4rem;
+    color: #000;
+}
+.our{
+    margin-top: 90px;
+}
+.circle {
+    width: 10px; 
+    height: 10px; 
+    background-color: transparent; 
+    border: 1px solid #000;
+    border-radius: 100%;
+}
+.cir{
+    display: flex;
+    align-items: center;
+}
+.text {
+    margin-left: 10px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+.ext{
+   color: #cf9488; 
+}
+.team{
+    margin-top: 150px;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+}
+.padteam{
+    margin: 50px;
+}
+.image-container {
+    position: relative; 
+    display: inline-block; 
+}
+.insicon {
+    top: 50px;
+    left: 10px;
+}
+.facicon {
+    top: 45px;
+    left: 10px;
+}
+.textteam{
+    font-weight: bold;
+}
+.textp{
+    font-weight: bold;
+    margin-top: 5px;
+}
+.image-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px; 
+}
+.awards{
+    margin-top: 150px;
+}
+.first{
+    size: 50;
+}
